@@ -1,5 +1,5 @@
-"""
-class R2_D2(object):
+
+"""class R2_D2(object):
 
     def __init__(self):
         self.meno = "R2_D2"
@@ -23,6 +23,7 @@ hologram = R2_D2()
 hologram.vytvori_hologram()
 """
 
+"""
 pismena = ("T", "i", "m", "o")
 for i in pismena:
     print(i)
@@ -39,4 +40,22 @@ from platform import python_version
 print("Current Python Version-", python_version())
 print(sys.version_info.minor)
 
-# zmeny
+
+firstNumber = 2
+secondNumber = 3
+secondNumber = secondNumber + firstNumber
+thirdNumber = firstNumber * secondNumber
+print(thirdNumber + secondNumber)
+"""
+
+def print_concatenate(a, b):
+    concatenate = (a + b)
+    return concatenate
+
+"""
+print_concatenate("hello ", "world")  # Vypise hello world
+print_concatenate("informatika", "101")  # Vypise informatika101
+"""
+
+spolu = print_concatenate("Ahoj ", "svet")
+print(spolu)
