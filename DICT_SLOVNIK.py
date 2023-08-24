@@ -11,7 +11,7 @@ skrina["regal3"] = [False]
 print(skrina)
 print(skrina["regal1"])
 
-skrina["regal2"].append("ponozky")
+skrina["regal2"].append("spodky")
 print(skrina)
 
 print(dir("regal2"))
