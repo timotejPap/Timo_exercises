@@ -1,8 +1,8 @@
 # PRIKLAD
 # definovaná funkcia
 def vypocitaj (x, z):
-    deleno = x/z
-    return deleno
+    delene = x/z
+    return delene
 
 # hlavny program
 priklad = vypocitaj (100, 5)
