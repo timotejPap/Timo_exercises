@@ -1,8 +1,6 @@
 
 # Kalkulačka na výpočet platieb
 
-
-
 # 1. option
 # print("Vitajte v kalkulačke na výpočet platieb")
 # max_price = float(input("Zadaj celkovú sumu\n"))
