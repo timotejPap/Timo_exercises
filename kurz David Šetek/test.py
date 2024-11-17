@@ -113,3 +113,5 @@
 # print(f"Ostáva vám {90-age} rokov, {(90*12)-(age*12)} mesiacov, {(90*52) - (age*52)} týždňov, alebo {(90*365) - (age*365)} dní")
 
 
+
+
