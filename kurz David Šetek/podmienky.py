@@ -91,3 +91,18 @@
 #     print(f"Cena vstupného bude {bill}€.")
 # else:
 #     print("Nemáte povolený vstup na dráhu.")
+
+
+        # Prestupné roky
+
+year = int(input("Zadaj nejaký rok: "))
+if year % 4 == 0:
+    if year % 100 != 0:
+        if year % 400 == 0:
+            print(f"{year} je prestupný rok.")
+        else:
+            print(f"{year} je prestupný rok.")
+    else:
+        print(f"{year} je prestupný rok.")
+else:
+    print(f"{year} nie je prestupný rok.")
