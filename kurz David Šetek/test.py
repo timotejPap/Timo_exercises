@@ -112,4 +112,15 @@
 
 # print(f"Ostáva vám {90-age} rokov, {(90*12)-(age*12)} mesiacov, {(90*52) - (age*52)} týždňov, alebo {(90*365) - (age*365)} dní")
 
+# modulo
+# print(6 % 4)
+# print(10 % 3)
+# print(12 % 10)
+
+# number = int(input("Zadaj celé číslo:\n"))
+# if number % 2 == 0:
+#     print("Číslo je párne.")
+# else:
+#     print("Číslo je nepárne.")
+
 
