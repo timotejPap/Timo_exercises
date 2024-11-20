@@ -84,7 +84,7 @@
 #         bill = 8
 #         print("Vstupné je 8€.")
         
-#     photo = input("Chcete počas jazdy vyfotiť? Áno/Nie\n")
+#     photo = input("Chcete sa počas jazdy nechať vyfotiť? Áno/Nie\n")
 #     if photo == "Áno":
 #         bill = bill + 2
 #         # bill += 2

@@ -124,6 +124,3 @@
 #     print("Číslo je nepárne.")
 
 
-
-
-
