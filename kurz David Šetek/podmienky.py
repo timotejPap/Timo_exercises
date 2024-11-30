@@ -95,14 +95,20 @@
 
         # Prestupné roky
 
-year = int(input("Zadaj nejaký rok: "))
-if year % 4 == 0:
-    if year % 100 != 0:
-        if year % 400 == 0:
-            print(f"{year} je prestupný rok.")
-        else:
-            print(f"{year} je prestupný rok.")
-    else:
-        print(f"{year} je prestupný rok.")
+# year = int(input("Zadaj nejaký rok: "))
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print(f"{year} je prestupný rok.")
+#         else:
+#             print(f"{year} nie je prestupný rok.")
+#     else:
+#         print(f"{year} je prestupný rok.")
+# else:
+#     print(f"{year} nie je prestupný rok.")
+
+year = int(input("Zadaj nejaký rok:\n"))
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print(f"Rok {year} je prestupný rok.")
 else:
-    print(f"{year} nie je prestupný rok.")
+    print(f"Rok {year} nie je prestupný rok.")

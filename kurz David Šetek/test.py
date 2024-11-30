@@ -124,3 +124,31 @@
 #     print("Číslo je nepárne.")
 
 
+            # Horská dráha + nayvýšenie vstupného
+
+print("Vitajte na horskej dráhe")
+height = float(input("Aká je vaša výška (v cm)?\n"))
+bill = 0
+
+if height >= 87:
+    print("Môžete pokračovať na dráhu")
+    age = int(input("Zadaj svoj vek\n"))
+    if age <= 12:
+        bill = 4
+        print("Vstupné je 4€.")
+    elif age <= 18:
+        bill = 6
+        print("Vstupné je 6€.")
+    elif age >= 40 and age <= 50:
+        # bill = 0
+        print("Vstupné je zdarma.")
+    else:
+        bill = 8
+        print("Vstupné je 8€.")
+        
+    photo = input("Chcete sa počas jazdy nechať vyfotiť? Áno/Nie\n")
+    if photo == "Áno":
+        bill += 2
+    print(f"Cena vstupného bude {bill}€.")
+else:
+    print("Nemáte povolený vstup na dráhu.")
